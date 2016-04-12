@@ -10,30 +10,12 @@ import tiy from './app.js';
 // Looks like the imported module was a function, because here we're executing it!
 tiy();
 
+// Importing Navigation	
+import NavComponent from './../components/nav.js';
 
- 
 
 
 
-const NavComponent = React.createClass({
-	render: function() {
-		return (
-			<nav>
-				<div className="navContent">
-						<img src={logo} className="logo-image" />
-						<h2 className="logo-text">Fresh Jobs</h2>
-				</div>
-				<div className="links"> 
-						<a href="#">JOBS</a>
-						<a href="#">COMPANIES</a>
-						<a href="#">CITIES</a>
-						<a href="#">WHY FRESH?</a>
-						<a href="#">FOR EMPLOYERS</a>
-				</div>
-			</nav>
-		);
-	}
-});
 
 
 
@@ -60,6 +42,6 @@ const NavComponent = React.createClass({
  
 
 
-ReactDOM.render(<NavComponent/>, document.querySelector('nav'));
+ReactDOM.render(<NavComponent/>, document.querySelector('main'));
  
 
