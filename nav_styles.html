@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		This is test file
+	</title>
+
+	<style type="text/css">
+
+nav {
+    height: 100px;
+    background: #D8D8D8;
+    width: 102%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border-top: 20px solid #525252;
+}
+
+.logo-image {
+    margin: 22px 90px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text {
+    color: #073719;
+    float: left;
+    font-size: x-large;
+    line-height: 4;
+    margin-left: -77px;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.links {
+    float: right;
+    display:none;
+}
+
+img.hamburger-image {
+    float: right;
+    margin: 9px 20px;
+}
+
+@media (min-width: 550px) {
+  .links {
+    float: right;
+    display: block;
+    line-height: 6;
+    margin-right: 33em;
+    font-family: arial;
+    font-weight: bolder;
+    color: #073719;
+
+}
+
+img.hamburger-image {
+    display:none;
+}
+
+.links > a {
+   margin-right: 32px;
+    color: #525252;
+    text-decoration: none;
+}
+
+}
+	 
+
+
+	</style>
+</head>
+<body>
+<!-- STYLING THE NAVBAR FIRST -->
+<nav>
+	<div class="nav-container">
+	<a href="#">
+		<img class="logo-image" src="https://github.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/blob/master/images/logo.png?raw=true">	
+		<div class="logo-text">Fresh Jobs</div>
+	</a>
+
+	<img class="hamburger-image" src="https://github.com/TIY-Austin-Front-End-Engineering/navbar/blob/master/hamburger.png?raw=true">
+
+	<div class="links"> 
+		<a href="#">JOBS</a>
+		<a href="#">COMPANIES</a>
+		<a href="#">CITIES</a>
+		<a href="#">WHY FRESH?</a>
+		<a href="#">FOR EMPLOYERS</a>
+	</div>
+	</div>
+</nav>
+
+ 
+</body>
+</html>
