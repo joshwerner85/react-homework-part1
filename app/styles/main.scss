@@ -1,3 +1,47 @@
 @import 'variables';
 
+ nav {
+    height: 100px;
+    background: white;
+    width: 102%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border-top: 20px solid #525252;
+    border-bottom:1px solid #eeeeee;
+}
+
+.logo-image {
+    margin: 22px 100px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text {
+    color: #073719;
+    float: left;
+    font-size: x-large;
+    line-height: 3;
+    margin-left: -77px;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.links {
+    float: left;
+    margin: 48px 23px;
+}
+
+img.hamburger-image {
+    float: right;
+    margin: 9px 20px;
+}
+
+a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-family: arial;
+    font-weight: bolder;
+    color: #525252;
+}
  

@@ -23,7 +23,7 @@ const NavComponent = React.createClass({
 						<img src={logo} className="logo-image" />
 						<h2 className="logo-text">Fresh Jobs</h2>
 				</div>
-				<div class="links"> 
+				<div className="links"> 
 						<a href="#">JOBS</a>
 						<a href="#">COMPANIES</a>
 						<a href="#">CITIES</a>
@@ -57,15 +57,9 @@ const NavComponent = React.createClass({
 
 
 
-
-const TestComponent = React.createClass({
-    render: function() {
-        return <h1 className="tag-class">Test~</h1>;
-    }
-});
+ 
 
 
-ReactDOM.render(<NavComponent/>, document.querySelector('div'));
-ReactDOM.render(<TestComponent/>, document.querySelector('h1'));
-ReactDOM.render(<NavBar/>, document.querySelector('nav'));
+ReactDOM.render(<NavComponent/>, document.querySelector('nav'));
+ 
 
