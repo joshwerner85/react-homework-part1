@@ -12,13 +12,31 @@ tiy();
 
 // Importing Navigation	
 import NavComponent from './../components/nav.js';
+import filterBoxComponent from './../components/filterBox.js';
 
 
 
 
 
 
+const filterBoxComponent = React.createClass({
+	render: function() {
+		return (
+			 <div className="container">
+<form/>
 
+  <label for="keywords">Keywords</label> 
+  <input className="keywords-input" type="text" />
+
+  <label for="location">Location</label> 
+  <input className="location-input" type="text" />
+  <button>Search</button>
+
+</form> 
+</div>
+		);
+	}
+});
 
 
 
@@ -43,5 +61,6 @@ import NavComponent from './../components/nav.js';
 
 
 ReactDOM.render(<NavComponent/>, document.querySelector('main'));
- 
+ReactDOM.render(<filterBoxComponent/>, document.querySelector('main'));
+
 

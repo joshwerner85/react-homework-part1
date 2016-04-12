@@ -69,11 +69,11 @@ img.hamburger-image {
 
 /*Start of the Filter box styling*/
 .container {
-    width: 80%;
+    width: 71%;
     height: 204px;
-    border: 2px solid black;
+    border: 1px solid grey;
     margin-top: 30px;
-    margin-left: 115px;
+    margin-left: 170px;
 }
 
 .keywords {
@@ -92,14 +92,35 @@ button {
     border: none;
     background: green;
     color: white;
-    height: 60px;
+    height: 36px;
     width: 126px;
     margin: -19px 25px;
+    border-radius: 6px;
 }
 
 input.keywords-input,input.location-input {
     height: 30px;
     width: 329px;
+}
+
+form#login {
+    margin-left: 79px;
+    line-height: 13;
+    display: inline!important;
+}
+
+label {
+    position: absolute;
+    top: 120px;
+}
+
+input.keywords-input,   {
+    height: 30px;
+    width: 329px;
+    float: left;
+    position: absolute;
+    left: 233px;
+    top: 240px;
 }
 	</style>
 </head>
@@ -124,6 +145,20 @@ input.keywords-input,input.location-input {
 	</div>
 </nav>
 
+<div class="container">
+<form action="#" method="get" id="login" >
+
+  <label>Keywords</label> 
+  <input class="keywords-input" type='text' >
+
+  <label>Location</label> 
+  <input class="location-input" type='text' >
+  <button>Search</button>
+
+</form> 
+</div>
+	
+ 
  
 </body>
 </html>
