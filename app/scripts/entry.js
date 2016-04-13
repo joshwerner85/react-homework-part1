@@ -15,7 +15,7 @@ import NavComponent from './components/nav';
 import FilterComponent from './components/filterBox';
 import JobComponent from './components/jobRow';
 import InfoBoxComponent from './components/infoBox';
-
+import CompanyInfoComponent from './components/companyInfo';
 
  
 
@@ -27,7 +27,7 @@ import InfoBoxComponent from './components/infoBox';
 			<FilterComponent/>
 			<JobComponent />
 			<InfoBoxComponent />
-
+			<CompanyInfoComponent />
 
 			</div>
 		);
