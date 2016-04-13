@@ -11,56 +11,35 @@ import tiy from './app.js';
 tiy();
 
 // Importing Navigation	
-import NavComponent from './../components/nav.js';
-import filterBoxComponent from './../components/filterBox.js';
+import NavComponent from './components/nav';
+import FilterComponent from './components/filterBox';
+import JobComponent from './components/jobRow';
 
 
+ 
 
-
-
-
-const filterBoxComponent = React.createClass({
+ const AllPages = React.createClass({
 	render: function() {
 		return (
-			 <div className="container">
-<form/>
+			<div>
+			<NavComponent/>
+			<FilterComponent/>
+			<JobComponent />
 
-  <label for="keywords">Keywords</label> 
-  <input className="keywords-input" type="text" />
 
-  <label for="location">Location</label> 
-  <input className="location-input" type="text" />
-  <button>Search</button>
-
-</form> 
-</div>
+			</div>
 		);
 	}
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
 
+ 
+ReactDOM.render(<AllPages/>, document.querySelector('main'));
+// ReactDOM.render(<NavComponent/>, document.querySelector('main'));
+// ReactDOM.render(<FilterComponent/>, document.querySelector('.container'));
 
-ReactDOM.render(<NavComponent/>, document.querySelector('main'));
-ReactDOM.render(<filterBoxComponent/>, document.querySelector('main'));
+
 
 

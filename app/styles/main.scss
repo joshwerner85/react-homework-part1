@@ -1,5 +1,6 @@
 @import 'variables';
 
+// NAVIGATION START
  nav {
     height: 100px;
     background: white;
@@ -7,7 +8,7 @@
     margin-left: -8px;
     margin-top: -8px;
     border-top: 20px solid #525252;
-    border-bottom:1px solid #eeeeee;
+    border-bottom: 1px solid rgb(181, 181, 181);
 }
 
 .logo-image {
@@ -44,11 +45,153 @@ a {
     font-weight: bolder;
     color: #525252;
 }
+// NAVIGATION END
+
+//FILTER BOX START
 
 .container {
-    width: 100%;
+    width: 50%;
     height: 204px;
-    border: 2px solid black;
+    border: 1px solid grey;
     margin-top: 30px;
+    margin-left: 80px;
 }
- 
+
+.keywords {
+    margin: 66px 70px;
+}
+
+.location {
+    margin: -120px 419px;
+}
+
+.search {
+    margin: 101px 558px;
+}
+
+button {
+    border: none;
+    background: green;
+    color: white;
+    height: 36px;
+    width: 126px;
+    margin: -19px 15px;
+    border-radius: 6px;
+    position: absolute;
+    top: 256px;
+    right: 637px;
+}
+
+label.keywords {
+    position: absolute;
+    top: 57px;
+    margin-left: 2px;
+}
+
+label.location {
+    position: absolute;
+    top: 244px;
+    margin-left: 273px;
+}
+
+input.keywords-input,input.location-input {
+    height: 30px;
+    width: 250px;
+}
+
+form#login {
+    margin-left: 31px;
+    line-height: 13;
+    display: inline!important;
+}
+
+label {
+    position: absolute;
+    top: 120px;
+}
+
+input.keywords-input {
+    height: 30px;
+    width: 249px;
+    float: left;
+    position: absolute;
+    left: 392px;
+    top: 239px;
+}
+
+.job-row {
+    width: 50%;
+    height: 204px;
+    border: 1px solid grey;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+// FILTER BOX END
+
+
+
+
+
+
+// .container {
+//     width: 71%;
+//     height: 204px;
+//     border: 1px solid grey;
+//     margin-top: 30px;
+//     margin-left: 170px;
+// }
+
+// .keywords {
+//     margin: 66px 70px;
+// }
+
+// .location {
+//     margin: -120px 419px;
+// }
+
+// .search {
+//     margin: 101px 558px;
+// }
+
+// button {
+//     border: none;
+//     background: green;
+//     color: white;
+//     height: 36px;
+//     width: 126px;
+//     margin: -19px 25px;
+//     border-radius: 6px;
+// }
+
+// input.keywords-input,input.location-input {
+//     height: 30px;
+//     width: 329px;
+// }
+
+// form#login {
+//     margin-left: 79px;
+//     line-height: 13;
+//     display: inline!important;
+// }
+
+// label {
+//     position: absolute;
+//     top: 120px;
+// }
+
+// input.keywords-input,   {
+//     height: 30px;
+//     width: 329px;
+//     float: left;
+//     position: absolute;
+//     left: 233px;
+//     top: 240px;
+// }
+//  

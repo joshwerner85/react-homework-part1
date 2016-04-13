@@ -69,11 +69,11 @@ img.hamburger-image {
 
 /*Start of the Filter box styling*/
 .container {
-    width: 71%;
+    width: 50%;
     height: 204px;
     border: 1px solid grey;
     margin-top: 30px;
-    margin-left: 170px;
+    margin-left: 80px;
 }
 
 .keywords {
@@ -94,17 +94,17 @@ button {
     color: white;
     height: 36px;
     width: 126px;
-    margin: -19px 25px;
+    margin: -19px 15px;
     border-radius: 6px;
 }
 
 input.keywords-input,input.location-input {
     height: 30px;
-    width: 329px;
+    width: 250px;
 }
 
 form#login {
-    margin-left: 79px;
+    margin-left: 31px;
     line-height: 13;
     display: inline!important;
 }
@@ -122,6 +122,165 @@ input.keywords-input,   {
     left: 233px;
     top: 240px;
 }
+
+.job-row {
+    width: 50%;
+    height: 204px;
+    border: 1px solid grey;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+/*
+START OF JOB ROW*/
+h1.seniorengineer {
+    margin: 28px 12px;
+}
+
+p.yesterday {
+    float: right;
+    margin: -59px 42px;
+    color: #9b9b9b;
+}
+
+h4.nsone {
+    margin: -6px 13px;
+}
+
+span {
+    color: red;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+p.description {
+    margin-left: 12px;
+    color: #9b9b9b;
+}
+
+.angularjs {
+    height: 20px;
+    width: 65px;
+    border: 2px solid #dfe180;
+    background: #f9fce9;
+    margin-left: 12px;
+}
+
+.d3js {
+    height: 20px;
+    width: 65px;
+    border: 2px solid #dfe180;
+    background: #f9fce9;
+    margin-left: 12px;
+    position: absolute;
+    top: 525px;
+    left: 164px;
+    text-align: center;
+}
+
+.javascript {
+    height: 20px;
+    width: 65px;
+    border: 2px solid #dfe180;
+    background: #f9fce9;
+    margin-left: 12px;
+    position: absolute;
+    top: 526px;
+    left: 239px;
+    text-align: center;
+}
+
+.ui {
+    height: 20px;
+    width: 34px;
+    border: 2px solid #dfe180;
+    background: #f9fce9;
+    margin-left: 12px;
+    position: absolute;
+    top: 527px;
+    left: 314px;
+    text-align: center;
+}
+
+.css {
+    height: 20px;
+    width: 34px;
+    border: 2px solid #dfe180;
+    background: #f9fce9;
+    margin-left: 12px;
+    position: absolute;
+    top: 528px;
+    left: 358px;
+    text-align: center;
+}
+
+/*INFO BOX START*/
+.infoBox {
+    width: 440px;
+    height: 440px;
+    border: 2px solid #e7efa4;
+    margin-top: -413px;
+    margin-left: 871px;
+    background: #fafbe9;
+}
+
+.featuredCompany {
+    width: 440px;
+    height: 460px;
+    border: 1px solid #F1EFEF;
+    margin-top: 41px;
+    margin-left: 871px;
+    background: white;
+}
+
+h1.lookingForJob {
+    text-align: center;
+}
+
+span.comeToYou {
+    color: green;
+}
+
+button.createProfile {
+    margin-left: 34px;
+    background: gray;
+    margin-top: 30px;
+    width: 385px;
+}
+
+.list, h4 {
+    margin-left: 53px;
+}
+
+img {
+    margin-left: 60px;
+}
+
+img.logo {
+    margin-left: 128px;
+    position: absolute;
+    right: 252px;
+    top: 806px;
+    border: 1px solid #E0DFDF;
+}
+
+h5 {
+    margin-left: 190px;
+    margin-top: 180px;
+}
+
+h2.maxplay {
+    margin: 142px 171px;
+    font-size: 24px;
+    color: green;
+}
+
+h4.Austin {
+    margin: -138px 184px;
+    color: gray;
+}
+
+
 	</style>
 </head>
 <body>
@@ -148,7 +307,7 @@ input.keywords-input,   {
 <div class="container">
 <form action="#" method="get" id="login" >
 
-  <label>Keywords</label> 
+  <label class="keywords">Keywords</label> 
   <input class="keywords-input" type='text' >
 
   <label>Location</label> 
@@ -157,7 +316,40 @@ input.keywords-input,   {
 
 </form> 
 </div>
-	
+
+<div class="job-row">
+    <h1 class="seniorengineer">Senior Frontend Engineer</h1>
+    <p class="yesterday">yesterday</p>
+    <h4 class="nsone">NSONE - <span>New York,NY</span></h2>
+    <p class="description">Senior Frontend EngineerSolve Hard Problems With a Team of Infastructure ProsNSONE is based in New York...</p>
+    <div class="angularjs">Angularjs</div>
+    <div class="d3js">d3.js</div>
+    <div class="javascript">javascript</div>
+    <div class="ui">ui</div>
+    <div class="css">css</div>
+</div>
+
+<div class="infoBox">
+    <h1 class="lookingForJob">Looking for a job?</h1>
+    <h4>Create a Fresh Jobs profile and<span class="comeToYou"> let employers come to you.</span></h4>
+    <div class="list">
+    <ul>
+        <li>Employers search our database and contact you</li>
+        <li>Import easily from LinkedIn</li>
+        <li>Link to Stack Overflow, GitHub, CodePlex and more</li>
+    </ul>
+    </div>
+    <button class="createProfile">Create a Profile</button>
+</div>
+
+<div class="featuredCompany">
+    <h1 class="lookingForJob">Featured Company</h1>
+    <img src="https://github.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/blob/master/images/featured.jpg?raw=true">
+    <img class="logo" src="https://github.com/TIY-Austin-Front-End-Engineering/fresh-job-board-views/blob/master/images/featured-logo.jpg?raw=true">
+    
+    <h2 class="maxplay">Max Play</h2>
+    <h4 class="Austin">Austin,TX</h4>
+     </div>  	
  
  
 </body>

@@ -1,4 +1,4 @@
-import logo from './../assets/logo.png';
+import logo from './../../assets/logo.png';
 import React from 'react';
 const NavComponent = React.createClass({
 	render: function() {
