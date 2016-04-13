@@ -4,8 +4,11 @@ import cat from './../assets/orangecat.jpg';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './../assets/logo.png';
+import logo1 from './../images/featured-logo.jpg';
+import logo2 from './../images/featured.jpg';
 // import a module from another file.
 import tiy from './app.js';
+
 
 // Looks like the imported module was a function, because here we're executing it!
 tiy();
