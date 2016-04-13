@@ -14,6 +14,7 @@ tiy();
 import NavComponent from './components/nav';
 import FilterComponent from './components/filterBox';
 import JobComponent from './components/jobRow';
+import InfoBoxComponent from './components/infoBox';
 
 
  
@@ -25,6 +26,7 @@ import JobComponent from './components/jobRow';
 			<NavComponent/>
 			<FilterComponent/>
 			<JobComponent />
+			<InfoBoxComponent />
 
 
 			</div>
