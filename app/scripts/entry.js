@@ -19,7 +19,7 @@ import FilterComponent from './components/filterBox';
 import JobComponent from './components/jobRow';
 import InfoBoxComponent from './components/infoBox';
 import CompanyInfoComponent from './components/companyInfo';
-
+import Company from './components/company';
  
 
  const AllPages = React.createClass({
@@ -31,6 +31,7 @@ import CompanyInfoComponent from './components/companyInfo';
 			<JobComponent />
 			<InfoBoxComponent />
 			<CompanyInfoComponent />
+			
 
 			</div>
 		);
@@ -45,6 +46,6 @@ ReactDOM.render(<AllPages/>, document.querySelector('main'));
 // ReactDOM.render(<NavComponent/>, document.querySelector('main'));
 // ReactDOM.render(<FilterComponent/>, document.querySelector('.container'));
 
-
+ 
 
 
